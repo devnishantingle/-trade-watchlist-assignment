@@ -1,6 +1,5 @@
+import 'package:assgnment/features/watchlist/repository/watchlist_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../repository/watchlist_repository.dart';
 import 'watchlist_event.dart';
 import 'watchlist_state.dart';
 

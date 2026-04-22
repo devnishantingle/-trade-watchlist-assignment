@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../app/theme/app_colors.dart';
-import '../models/stock_model.dart';
+import 'package:assgnment/app/theme/app_colors.dart';
+import 'package:assgnment/features/watchlist/models/stock_model.dart';
 
 class EditableStockTile extends StatelessWidget {
   const EditableStockTile({

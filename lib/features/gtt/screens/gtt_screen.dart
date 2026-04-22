@@ -1,1 +1,1 @@
-export '../pages/gtt_screen.dart';
+export 'package:assgnment/features/gtt/pages/gtt_screen.dart';

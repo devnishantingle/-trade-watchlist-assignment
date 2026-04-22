@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../features/watchlist/bloc/watchlist_bloc.dart';
-import '../features/watchlist/bloc/watchlist_event.dart';
-import '../features/watchlist/repository/watchlist_repository.dart';
-import 'router/app_router.dart';
-import 'theme/app_theme.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_bloc.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_event.dart';
+import 'package:assgnment/features/watchlist/repository/watchlist_repository.dart';
+import 'package:assgnment/app/router/app_router.dart';
+import 'package:assgnment/app/theme/app_theme.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

@@ -1,6 +1,5 @@
+import 'package:assgnment/features/watchlist/models/stock_model.dart';
 import 'package:equatable/equatable.dart';
-
-import '../models/stock_model.dart';
 
 class WatchlistState extends Equatable {
   const WatchlistState({

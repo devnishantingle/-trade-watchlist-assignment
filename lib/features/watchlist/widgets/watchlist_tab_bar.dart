@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../app/theme/app_colors.dart';
+import 'package:assgnment/app/theme/app_colors.dart';
 
 class WatchlistTabBar extends StatelessWidget {
   const WatchlistTabBar({super.key});

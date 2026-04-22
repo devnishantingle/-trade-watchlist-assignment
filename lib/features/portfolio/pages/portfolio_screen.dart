@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../core/widgets/main_tab_scaffold.dart';
+import 'package:assgnment/core/widgets/main_tab_scaffold.dart';
 
 class PortfolioScreen extends StatelessWidget {
   const PortfolioScreen({super.key});

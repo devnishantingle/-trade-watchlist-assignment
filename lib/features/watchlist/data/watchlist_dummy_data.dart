@@ -1,4 +1,4 @@
-import '../models/stock_model.dart';
+import 'package:assgnment/features/watchlist/models/stock_model.dart';
 
 const watchlistDummyData = <StockModel>[
   StockModel(

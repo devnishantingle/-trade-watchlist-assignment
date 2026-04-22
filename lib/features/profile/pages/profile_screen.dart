@@ -1,6 +1,5 @@
+import 'package:assgnment/core/widgets/main_tab_scaffold.dart';
 import 'package:flutter/material.dart';
-
-import '../../../core/widgets/main_tab_scaffold.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

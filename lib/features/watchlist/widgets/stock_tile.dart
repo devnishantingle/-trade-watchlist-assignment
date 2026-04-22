@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../../../app/theme/app_colors.dart';
-import '../../../../core/utils/formatters.dart';
-import '../models/stock_model.dart';
+import 'package:assgnment/app/theme/app_colors.dart';
+import 'package:assgnment/core/utils/formatters.dart';
+import 'package:assgnment/features/watchlist/models/stock_model.dart';
 
 class StockTile extends StatelessWidget {
   const StockTile({required this.stock, super.key});

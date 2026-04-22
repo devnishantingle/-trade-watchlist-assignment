@@ -1,13 +1,12 @@
+import 'package:assgnment/app/theme/app_colors.dart';
+import 'package:assgnment/core/widgets/app_loader.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_bloc.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_event.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_state.dart';
+import 'package:assgnment/features/watchlist/widgets/editable_stock_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-
-import '../../../app/theme/app_colors.dart';
-import '../../../core/widgets/app_loader.dart';
-import '../bloc/watchlist_bloc.dart';
-import '../bloc/watchlist_event.dart';
-import '../bloc/watchlist_state.dart';
-import '../widgets/editable_stock_tile.dart';
 
 class EditWatchlistScreen extends StatelessWidget {
   const EditWatchlistScreen({super.key});

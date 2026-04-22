@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
-import '../../app/router/route_names.dart';
-import 'app_bottom_nav.dart';
+import 'package:assgnment/core/widgets/app_bottom_nav.dart';
 
 class MainTabScaffold extends StatelessWidget {
   const MainTabScaffold({
@@ -18,29 +16,12 @@ class MainTabScaffold extends StatelessWidget {
   final Widget body;
   final bool useSafeArea;
 
-  static const _paths = [
-    RouteNames.watchlistPath,
-    RouteNames.ordersPath,
-    RouteNames.gttPath,
-    RouteNames.portfolioPath,
-    RouteNames.fundsPath,
-    RouteNames.profilePath,
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(title: Text(title)),
-      bottomNavigationBar: AppBottomNav(
-        currentIndex: currentIndex,
-        onTap: (index) {
-          if (index == currentIndex) {
-            return;
-          }
-          context.go(_paths[index]);
-        },
-      ),
+      bottomNavigationBar: AppBottomNav(currentIndex: currentIndex),
       body: useSafeArea ? SafeArea(child: body) : body,
     );
   }

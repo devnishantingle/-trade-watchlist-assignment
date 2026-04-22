@@ -1,17 +1,16 @@
+import 'package:assgnment/core/widgets/app_loader.dart';
+import 'package:assgnment/core/widgets/app_search_bar.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_bloc.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_event.dart';
+import 'package:assgnment/features/watchlist/bloc/watchlist_state.dart';
+import 'package:assgnment/features/watchlist/widgets/market_summary_row.dart';
+import 'package:assgnment/features/watchlist/widgets/sort_button.dart';
+import 'package:assgnment/features/watchlist/widgets/stock_tile.dart';
+import 'package:assgnment/features/watchlist/widgets/watchlist_bottom_nav.dart';
+import 'package:assgnment/features/watchlist/widgets/watchlist_header.dart';
+import 'package:assgnment/features/watchlist/widgets/watchlist_tab_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../core/widgets/app_loader.dart';
-import '../../../core/widgets/app_search_bar.dart';
-import '../bloc/watchlist_bloc.dart';
-import '../bloc/watchlist_event.dart';
-import '../bloc/watchlist_state.dart';
-import '../widgets/market_summary_row.dart';
-import '../widgets/sort_button.dart';
-import '../widgets/stock_tile.dart';
-import '../widgets/watchlist_bottom_nav.dart';
-import '../widgets/watchlist_header.dart';
-import '../widgets/watchlist_tab_bar.dart';
 
 class WatchlistScreen extends StatelessWidget {
   const WatchlistScreen({super.key});

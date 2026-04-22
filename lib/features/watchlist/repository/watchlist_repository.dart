@@ -1,5 +1,5 @@
-import '../data/watchlist_dummy_data.dart';
-import '../models/stock_model.dart';
+import 'package:assgnment/features/watchlist/data/watchlist_dummy_data.dart';
+import 'package:assgnment/features/watchlist/models/stock_model.dart';
 
 class WatchlistRepository {
   const WatchlistRepository();

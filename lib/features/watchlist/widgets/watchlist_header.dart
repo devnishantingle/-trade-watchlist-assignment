@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../../app/router/route_names.dart';
-import '../../../../app/theme/app_colors.dart';
+import 'package:assgnment/app/router/route_names.dart';
+import 'package:assgnment/app/theme/app_colors.dart';
 
 class WatchlistHeader extends StatelessWidget {
   const WatchlistHeader({super.key});

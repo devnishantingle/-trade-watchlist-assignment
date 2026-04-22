@@ -1,1 +1,1 @@
-export '../pages/profile_screen.dart';
+export 'package:assgnment/features/profile/pages/profile_screen.dart';
